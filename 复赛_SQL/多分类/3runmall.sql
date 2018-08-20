@@ -1,6 +1,6 @@
 drop table if exists m_1021_label;
 drop offlinemodel if exists gbdt_m_1021;
--- ÑµÁ·
+
 PAI -name ps_smart
 -project algo_public
 -DfeatureColNames="feat"
@@ -18,7 +18,7 @@ PAI -name ps_smart
 -Dl2="1.0"
 -Dl1="0"
 -Dshrinkage="0.1";
--- Ô¤²â
+-- Ã”Â¤Â²Ã¢
 PAI -name prediction
 -project algo_public
 -DinputTableName="test_m_1021"
@@ -31,7 +31,7 @@ PAI -name prediction
 -DitemDelimiter=" "
 -Dlifecycle="30"
 -DresultColName="shop_rank";
--- label×ªshop_id
+-- labelÃ—Âªshop_id
 drop table if exists m_1021;
 create table if not exists m_1021
 as
@@ -45,7 +45,7 @@ on a.shop_rank = b.shop_rank;
 
 drop table if exists m_1085_label;
 drop offlinemodel if exists gbdt_m_1085;
--- ÑµÁ·
+
 PAI -name ps_smart
 -project algo_public
 -DfeatureColNames="feat"
@@ -63,7 +63,7 @@ PAI -name ps_smart
 -Dl2="1.0"
 -Dl1="0"
 -Dshrinkage="0.1";
--- Ô¤²â
+
 PAI -name prediction
 -project algo_public
 -DinputTableName="test_m_1085"
@@ -76,7 +76,7 @@ PAI -name prediction
 -DitemDelimiter=" "
 -Dlifecycle="30"
 -DresultColName="shop_rank";
--- label×ªshop_id
+-- labelÃ—Âªshop_id
 drop table if exists m_1085;
 create table if not exists m_1085
 as
@@ -90,7 +90,7 @@ on a.shop_rank = b.shop_rank;
 
 drop table if exists m_1128_label;
 drop offlinemodel if exists gbdt_m_1128;
--- ÑµÁ·
+
 PAI -name ps_smart
 -project algo_public
 -DfeatureColNames="feat"
@@ -108,7 +108,7 @@ PAI -name ps_smart
 -Dl2="1.0"
 -Dl1="0"
 -Dshrinkage="0.1";
--- Ô¤²â
+
 PAI -name prediction
 -project algo_public
 -DinputTableName="test_m_1128"
@@ -121,7 +121,7 @@ PAI -name prediction
 -DitemDelimiter=" "
 -Dlifecycle="30"
 -DresultColName="shop_rank";
--- label×ªshop_id
+-- labelÃ—Âªshop_id
 drop table if exists m_1128;
 create table if not exists m_1128
 as
@@ -135,7 +135,7 @@ on a.shop_rank = b.shop_rank;
 
 drop table if exists m_1129_label;
 drop offlinemodel if exists gbdt_m_1129;
--- ÑµÁ·
+
 PAI -name ps_smart
 -project algo_public
 -DfeatureColNames="feat"
@@ -153,7 +153,7 @@ PAI -name ps_smart
 -Dl2="1.0"
 -Dl1="0"
 -Dshrinkage="0.1";
--- Ô¤²â
+
 PAI -name prediction
 -project algo_public
 -DinputTableName="test_m_1129"
@@ -166,7 +166,7 @@ PAI -name prediction
 -DitemDelimiter=" "
 -Dlifecycle="30"
 -DresultColName="shop_rank";
--- label×ªshop_id
+-- labelÃ—Âªshop_id
 drop table if exists m_1129;
 create table if not exists m_1129
 as
@@ -180,7 +180,7 @@ on a.shop_rank = b.shop_rank;
 
 drop table if exists m_1161_label;
 drop offlinemodel if exists gbdt_m_1161;
--- ÑµÁ·
+
 PAI -name ps_smart
 -project algo_public
 -DfeatureColNames="feat"
@@ -198,7 +198,7 @@ PAI -name ps_smart
 -Dl2="1.0"
 -Dl1="0"
 -Dshrinkage="0.1";
--- Ô¤²â
+
 PAI -name prediction
 -project algo_public
 -DinputTableName="test_m_1161"
@@ -211,7 +211,7 @@ PAI -name prediction
 -DitemDelimiter=" "
 -Dlifecycle="30"
 -DresultColName="shop_rank";
--- label×ªshop_id
+-- labelÃ—Âªshop_id
 drop table if exists m_1161;
 create table if not exists m_1161
 as
@@ -225,7 +225,7 @@ on a.shop_rank = b.shop_rank;
 
 drop table if exists m_1320_label;
 drop offlinemodel if exists gbdt_m_1320;
--- ÑµÁ·
+
 PAI -name ps_smart
 -project algo_public
 -DfeatureColNames="feat"
@@ -243,7 +243,7 @@ PAI -name ps_smart
 -Dl2="1.0"
 -Dl1="0"
 -Dshrinkage="0.1";
--- Ô¤²â
+
 PAI -name prediction
 -project algo_public
 -DinputTableName="test_m_1320"
@@ -256,7 +256,7 @@ PAI -name prediction
 -DitemDelimiter=" "
 -Dlifecycle="30"
 -DresultColName="shop_rank";
--- label×ªshop_id
+-- labelÃ—Âªshop_id
 drop table if exists m_1320;
 create table if not exists m_1320
 as
