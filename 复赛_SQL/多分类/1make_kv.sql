@@ -48,7 +48,7 @@ select min(shop_rank) from train_m_all;
 select * from train_m_all;
 select count(*) from test_m_all;
 select * from test_m_all;
---±Í«©ºı1
+
 drop table if exists train_tmp;
 create table if not exists train_tmp
 as select row_id,user_id,mall_id,time_stamp,longitude,latitude,shop_id,trainortest,(shop_rank - 1) as shop_rank,feat
